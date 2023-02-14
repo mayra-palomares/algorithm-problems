@@ -1,10 +1,11 @@
-# [Longest Substring Without Repeating Characters (Medium)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+# [3. Longest Substring Without Repeating Characters (Medium)](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 <p>Given a string s, find the length of the longest substring without repeating characters.</p>
 
 <p><strong>Example 1:</strong></p>
 
-<pre><strong>Input:</strong>s = "abcabcbb"
+<pre>
+<strong>Input:</strong>s = "abcabcbb"
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> The answer is "abc", with the length of 3.
 </pre>
