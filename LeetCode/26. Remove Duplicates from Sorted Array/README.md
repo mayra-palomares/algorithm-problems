@@ -21,15 +21,15 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ```ts
 function removeDuplicates(nums: number[]): number {
-    let k : number = 0
+    let k : number = 0;
     
     for(let i = k+1 ; i < nums.length; i ++){
         if(nums[k] < nums[i]){
-            k++
-            nums[k] = nums[i]
+            k++;
+            nums[k] = nums[i];
         }
     }
     
-    return k + 1
-};
+    return k + 1;
+}
 ```

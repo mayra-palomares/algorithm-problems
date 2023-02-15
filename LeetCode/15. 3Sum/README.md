@@ -21,7 +21,7 @@ Notice that the order of the output and the order of the triplets does not matte
 ```ts
 function threeSum(nums: number[]): number[][] {
     const results = [];
-    nums.sort((a,b) => a-b)
+    nums.sort((a,b) => a-b);
 
     for(let i=0; i<nums.length - 2 ; i++){
         if( i > 0 && nums[i] === nums[i-1]) continue;
@@ -47,5 +47,5 @@ function threeSum(nums: number[]): number[][] {
     }
 
     return results;
-};
+}
 ```
