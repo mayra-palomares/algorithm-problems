@@ -13,15 +13,15 @@
 
 ```ts
 function reverseList(head: ListNode | null): ListNode | null {
-    let reversedList: ListNode | null = null
-    let currentNode: ListNode | null = head
+    let reversedList: ListNode | null = null;
+    let currentNode: ListNode | null = head;
     
     while(currentNode !== null){
-        const nodeToInsert: ListNode = new ListNode(currentNode.val, reversedList)
-        reversedList = nodeToInsert
-        currentNode = currentNode.next
+        const nodeToInsert: ListNode = new ListNode(currentNode.val, reversedList);
+        reversedList = nodeToInsert;
+        currentNode = currentNode.next;
     }
     
-    return reversedList
-};
+    return reversedList;
+}
 ```

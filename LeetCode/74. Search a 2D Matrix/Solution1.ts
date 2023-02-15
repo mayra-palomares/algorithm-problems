@@ -11,11 +11,11 @@ function searchMatrix(matrix: number[][], target: number): boolean {
     while(low <= high){
         mid = Math.round((low + high)/2);
         row = Math.floor(mid/n);
-        column = mid%n
+        column = mid%n;
         guess = matrix[row][column];
 
         if(guess === target){
-            return true
+            return true;
         }else if(guess < target){
             low = mid + 1;
         }else{
@@ -23,4 +23,4 @@ function searchMatrix(matrix: number[][], target: number): boolean {
         }
     }
     return false;
-};
+}
