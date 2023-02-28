@@ -4,7 +4,7 @@
 
 <p><strong>Example 1:</strong></p>
 
-<img src="images/Example1.jpg">\
+<img src="images/Example1.jpg">  
 
 <pre>
 <strong>Input:</strong>root = [1,2,2,3,4,4,3]
@@ -13,7 +13,7 @@
 
 <p><strong>Example 2:</strong></p>
 
-<img src="images/Example2.jpg">\
+<img src="images/Example2.jpg">  
 
 <pre>
 <strong>Input:</strong>root = [1,2,2,null,3,null,3]
