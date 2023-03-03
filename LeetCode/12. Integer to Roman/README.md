@@ -11,7 +11,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 - C can be placed before D (500) and M (1000) to make 400 and 900.
   Given an integer, convert it to a roman numeral.</p>
 
-```
+<pre>
 Symbol       Value
 I             1
 V             5
@@ -20,8 +20,7 @@ L             50
 C             100
 D             500
 M             1000
-
-```
+</pre>
 
 <p><strong>Example 1:</strong></p>
 
